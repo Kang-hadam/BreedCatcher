@@ -1,0 +1,12 @@
+name: PR Create
+
+on:
+  push:
+    branches-ignore:
+      - main
+      - dev
+
+jobs:
+  pr-create:
+    uses: dev-five-git/action/.github/workflows/pr-create.yml@main
+    secrets: inherit

@@ -1,0 +1,11 @@
+name: Deploy Server
+
+on:
+  push:
+    branches: [ main, dev ]
+  workflow_dispatch:
+
+jobs:
+  confirm:
+    uses: dev-five-git/action/.github/workflows/deploy-server.yml@main
+    secrets: inherit

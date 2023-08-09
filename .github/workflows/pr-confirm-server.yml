@@ -1,0 +1,12 @@
+name: PR Confirm Server
+
+on:
+  pull_request:
+    branches: [ main, dev ]
+    types: [ opened, synchronize, reopened, ready_for_review ]
+  workflow_dispatch:
+
+jobs:
+  confirm:
+    uses: dev-five-git/action/.github/workflows/pr-confirm-server.yml@main
+    secrets: inherit

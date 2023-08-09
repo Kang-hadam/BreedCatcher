@@ -1,0 +1,98 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-05-24 15:56+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+# Basic
+
+msgid "_"
+msgstr "%s"
+
+msgid "Internal Server Error"
+msgstr "알 수 없는 서버 오류"
+
+msgid "Not Found"
+msgstr "찾을 수 없습니다."
+
+msgid "Need Root Authority"
+msgstr "Root 권한이 필요합니다."
+
+msgid "Item Not Found"
+msgstr "아이템을 찾을 수 없습니다."
+
+msgid "User Not Found"
+msgstr "유저를 찾을 수 없습니다."
+
+msgid "Wrong Password"
+msgstr "잘 못 된 비밀번호입니다."
+
+msgid "_ Not Found"
+msgstr "\"%s\"(을)를 찾을 수 없습니다."
+
+msgid "Deleted User"
+msgstr "제거된 유저입니다."
+
+msgid "Model Not Found"
+msgstr "모델을 찾을 수 없습니다."
+
+msgid "Not Authenticated"
+msgstr "인증되지 않았습니다."
+
+msgid "Login Token Expired"
+msgstr "로그인 토큰이 만료되었습니다."
+
+msgid "Login Token Error"
+msgstr "로그인 토큰에 문제가 있습니다."
+
+msgid "Refresh Token Error"
+msgstr "Refresh 토큰에 문제가 있습니다."
+
+msgid "_ Error"
+msgstr "\"%s\" 오류"
+
+msgid "_ Can Be Used With _"
+msgstr "\"%s\"(은)는 \"%s\"(과)와 함께 사용할 수 있습니다."
+
+# ProxyRouter
+msgid "Proxy Unauthorized"
+msgstr "Proxy 서버 인증에 실패했습니다."
+
+# CRUDRouter
+msgid "filter_list Syntax Error"
+msgstr "\"%s\" 쿼리는 잘 못 된 문법을 갖고 있습니다."
+
+msgid "_ Not Allowed Field"
+msgstr "\"%s\" 필드는 검색할 수 없습니다."
+
+msgid "Deleted Item"
+msgstr "이미 제거된 아이템입니다."
+
+msgid "_ Syntax Error"
+msgstr "\"%s\" 는 잘 못 된 문법입니다."
+
+msgid "Syntax Error"
+msgstr "문법 오류"
+
+msgid "Can Not Access"
+msgstr "접근할 수 없습니다."
+
+msgid "_ Must Be _"
+msgstr "\"%s\"(은)는 반드시 \"%s\"(이)가 되어야 합니다."
+
+msgid "_ Must Be Like _"
+msgstr "\"%s\"(은)는 반드시 \"%s\"처럼 되어야 합니다."
+
+msgid "_ Does Not Have _"
+msgstr "\"%s\"(은)는 \"%s\"(을)를 갖고 있지 않습니다."
+
+#==============================================
+
+# Custom

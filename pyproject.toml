@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "devfive-server-system"
+version = "0.1.0"
+description = "devfive server system"
+authors = ["devfive"]
+readme = "README.md"
+packages = [
+    { include = "app" },
+]
+
+[tool.poetry.scripts]
+start = "start:main"
+commit = "start:commit"
+lint = "start:lint"
+push = "start:push"
+downgrade = "start:downgrade"
+
+[tool.poetry.dependencies]
+python = ">=3.10.*"
+alembic = "^1.10.3"
+boto3 = "^1.26.114"
+fastapi = "^0.95.1"
+fastapi-camelcase = "^1.0.5"
+fastapi-crudrouter = "^0.8.6"
+fastapi-sqlalchemy = "^0.2.1"
+firebase-admin = "^6.1.0"
+mangum = "^0.17.0"
+nanoid = "^2.0.0"
+pydantic = "^1.10.7"
+pyhumps = "^3.8.0"
+pyJWT = "^2.6.0"
+sqlalchemy = "^2.0.9"
+sqlalchemy-utils = "^0.41.0"
+python-multipart = "^0.0.6"
+passlib = "^1.7.4"
+pg8000 = "^1.29.4"
+server-modules = { git = "git@github.com:dev-five-git/server-modules.git", branch = "main", tag = "v2.5.8" }
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.2"
+uvicorn = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
